@@ -8,8 +8,8 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "hello-ebean",
-    libraryDependencies += "io.ebean" % "ebean" % "11.45.1",
-    libraryDependencies += "io.ebean" % "ebean-querybean" % "11.45.1",
+    libraryDependencies += "io.ebean" % "ebean" % "12.2.4",
+    libraryDependencies += "io.ebean" % "ebean-querybean" % "12.2.4",
     libraryDependencies += "org.scalactic" %% "scalactic" % "3.1.1",
     libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.1" % "test",
     libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.44",
