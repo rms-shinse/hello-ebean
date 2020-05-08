@@ -1,0 +1,3 @@
+entity-packages: example.models
+querybean-packages: example.models
+transactional-packages: example
