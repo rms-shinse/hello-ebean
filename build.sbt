@@ -18,6 +18,7 @@ lazy val root = (project in file("."))
     libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.30",
       libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3",
       libraryDependencies += "junit" % "junit" % "4.13" % Test,
+    libraryDependencies += "io.ebean" % "ebean-test" % "12.2.3" % Test,
   )
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
